@@ -3,6 +3,7 @@ import { Label } from '@/components/ui/label';
 import { changePassword, verifyAuth } from '@/actions/auth';
 import SubmitButton from '@/components/layout/buttons/submit';
 import { redirect } from 'next/navigation';
+import GenerateNewPasswordInput from '@/components/ui/generate-new-password-input';
 
 export default function ChangePassword() {
 
@@ -41,13 +42,14 @@ export default function ChangePassword() {
                 {/* <Label htmlFor="email">Email</Label> */}
                 {/* <Input type="email" id="email" name="email" required /> */}
                 <Label htmlFor="oldPassword">Old Password</Label>
-                <Input type="password" id="oldPassword" name="oldPassword" required />
+                <Input type="password" id="oldPassword" placeholder="Enter old password"
+                    name="oldPassword" required />
 
-                <Label htmlFor="newPassword">New Password</Label>
-                <Input type="password" id="newPassword" name="newPassword" required />
+                <GenerateNewPasswordInput />
 
                 <Label htmlFor="confirmPassword">Confirm Password</Label>
-                <Input type="password" id="confirmPassword" name="confirmPassword" required />
+                <Input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter new password again"
+                    required />
 
                 <SubmitButton>
                     Change Password

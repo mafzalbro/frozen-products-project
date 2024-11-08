@@ -24,7 +24,7 @@ const getStrengthColor = (strength: string) => {
   }
 };
 
-export default function GeneratePasswordInput() {
+export default function GenerateNewPasswordInput() {
 
   const defaultSliderValue = 8;
 
@@ -79,8 +79,10 @@ export default function GeneratePasswordInput() {
       <div className="flex flex-col space-x-2">
         <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
           <DialogTrigger asChild>
-            <span className="flex items-center justify-between">
-              <Label htmlFor="password">Password</Label>
+            <span className="flex items-center justify-between"
+            >
+              <Label htmlFor="newPassword">New Password</Label>
+
               <Button variant={"link"} type="button">Generate Password</Button>
             </span>
           </DialogTrigger>
@@ -163,13 +165,14 @@ export default function GeneratePasswordInput() {
         <div className="w-full">
           <Input
             type="password"
-            id="password"
-            name="password"
-            placeholder="Enter password"
+            id="newPassword"
+            name="newPassword"
+            placeholder="Enter new password"
             value={password}
-            required
             onChange={(e) => { setPassword(e.target.value) }}
+            required
           />
+
         </div>
       </div>
 
