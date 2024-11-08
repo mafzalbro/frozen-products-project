@@ -1,0 +1,54 @@
+
+.vibrate {
+    animation: vibrate 0.4s linear 1, shadowPulse 0.6s ease-in-out 1 0.3s;
+  }
+  
+  @keyframes vibrate {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    20%,
+    60% {
+      transform: translateX(-4px);
+    }
+    40%,
+    80% {
+      transform: translateX(4px);
+    }
+  }
+  
+  @keyframes shadowPulse {
+    0%,
+    100% {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+  
+    40%,
+    80% {
+      box-shadow: 0 4px 40px rgba(0, 0, 0, 0.7);
+    }
+    50% {
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  /* Dark mode version */
+  .dark .vibrate {
+    animation: vibrate 0.4s linear 1, shadowPulseDark 0.6s ease-in-out 1 0.3s;
+  }
+  
+  @keyframes shadowPulseDark {
+    0%,
+    100% {
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    }
+    40%,
+    80% {
+      box-shadow: 0 4px 40px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+    }
+  }
+  

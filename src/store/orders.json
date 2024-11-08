@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "customerName": "Vella Bro",
+    "customerId": 2,
+    "email": "maf4156250@example.com",
+    "status": "pending",
+    "orderItems": [{ "productId": 1, "quantity": 2 }],
+    "totalAmount": 21.98,
+    "createdAt": "2024-10-22T10:30:00Z"
+  }
+]

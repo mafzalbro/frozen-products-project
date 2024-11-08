@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Fresh Frozen Foods Delivered to Your Doorstep",
+    "subtitle": "Explore our wide range of high-quality frozen products, carefully sourced and stored for freshness.",
+    "buttonText": "Shop Now",
+    "image": "/images/hero/man-placing-frozen-products.svg"
+  },
+  "categories": [
+    {
+      "name": "Frozen Vegetables",
+      "description": "Handpicked vegetables frozen to perfection.",
+      "image": "/images/veggies.png",
+      "link": "/categories/frozen-vegetables"
+    },
+    {
+      "name": "Frozen Fruits",
+      "description": "Fresh fruits preserved for year-round enjoyment.",
+      "image": "/images/fruits.png",
+      "link": "/categories/frozen-fruits"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Frozen Peas",
+      "image_url": "/images/peas.png",
+      "price": 3.99
+    },
+    {
+      "id": 2,
+      "name": "Frozen Blueberries",
+      "image_url": "/images/blueberries.png",
+      "price": 5.49
+    },
+    {
+      "id": 3,
+      "name": "Frozen Strawberries",
+      "image_url": "/images/veggies.png",
+      "price": 6.49
+    },
+    {
+      "id": 4,
+      "name": "Frozen Strawberries",
+      "image_url": "/images/veggies.png",
+      "price": 6.49
+    },
+    {
+      "id": 5,
+      "name": "Frozen Strawberries",
+      "image_url": "/images/veggies.png",
+      "price": 6.49
+    },
+    {
+      "id": 6,
+      "name": "Frozen Strawberries",
+      "image_url": "/images/veggies.png",
+      "price": 6.49
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "This is the best frozen food I have ever tasted! Highly recommend!",
+      "author": "John Doe",
+      "image": "/images/user.png"
+    },
+    {
+      "id": 2,
+      "text": "I love the variety of products and the quality is always top-notch.",
+      "author": "Jane Smith",
+      "image": "/images/user.png"
+    },
+    {
+      "id": 3,
+      "text": "Excellent customer service and fast delivery.",
+      "author": "Emily Johnson",
+      "image": "/images/user.png"
+    }
+  ],
+  "contact": {
+    "title": "Get in Touch",
+    "description": "We'd love to hear from you! If you have any questions or feedback, feel free to reach out.",
+    "image": "/images/contact-image.png",
+    "buttonText": "Contact Us",
+    "link": "/contact"
+  }
+}

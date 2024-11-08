@@ -1,0 +1,76 @@
+./src/actions/auth.ts
+22:28  Error: Unexpected any. Specify a
+different type.  @typescript-eslint/no-e
+xplicit-any
+46:40  Error: Unexpected any. Specify a
+different type.  @typescript-eslint/no-e
+xplicit-any
+99:12  Error: Unexpected any. Specify a
+different type.  @typescript-eslint/no-e
+xplicit-any
+
+./src/actions/connect.ts
+17:77  Error: Unexpected any. Specify a
+different type.  @typescript-eslint/no-e
+xplicit-any
+
+./src/app/(pages)/(others)/about/page.ts
+x
+26:59  Error: `'` can be escaped with `&
+apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.
+react/no-unescaped-entities
+32:52  Error: `'` can be escaped with `&
+apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.
+react/no-unescaped-entities
+36:32  Error: `'` can be escaped with `&
+apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.
+react/no-unescaped-entities
+
+./src/app/admin/components/products/card
+s.tsx
+13:7  Warning: Using `<img>` could resul
+t in slower LCP and higher bandwidth. Co
+nsider using `<Image />` from `next/imag
+e` to automatically optimize images. Thi
+s may incur additional usage or cost fro
+m your provider. See: https://nextjs.org
+/docs/messages/no-img-element  @next/nex
+t/no-img-element
+
+./src/components/layout/products/client-
+wraper.tsx
+12:12  Error: 'products' is assigned a v
+alue but never used.  @typescript-eslint
+/no-unused-vars
+
+./src/components/layout/products/server-
+wrapper.tsx
+3:38  Error: Unexpected any. Specify a d
+ifferent type.  @typescript-eslint/no-ex
+plicit-any
+10:44  Error: Unexpected any. Specify a
+different type.  @typescript-eslint/no-e
+xplicit-any
+
+./src/components/ui/input.tsx
+5:18  Error: An interface declaring no m
+embers is equivalent to its supertype.
+@typescript-eslint/no-empty-object-type
+
+./src/components/ui/textarea.tsx
+5:18  Error: An interface declaring no m
+embers is equivalent to its supertype.
+@typescript-eslint/no-empty-object-type
+
+./src/hooks/use-toast.ts
+21:7  Error: 'actionTypes' is assigned a
+ value but only used as a type.  @typesc
+ript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rule
+s? Learn more here: https://nextjs.org/d
+ocs/basic-features/eslint#disabling-rule
+s
+   Linting and checking validity of type
+PS G:\Freelance Work\frozen-products-sto
+re> 

@@ -1,0 +1,1 @@
+npm install tailwindcss postcss autoprefixer framer-motion react-icons stripe @sanity/client @sanity/image-url

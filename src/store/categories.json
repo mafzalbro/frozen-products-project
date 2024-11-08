@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Frozen Foods",
+    "slug": "frozen-foods",
+    "description": "A variety of frozen foods."
+  },
+  {
+    "id": 2,
+    "name": "Frozen Vegs",
+    "slug": "frozen-vegs",
+    "description": "A variety of frozen vegs."
+  }
+]

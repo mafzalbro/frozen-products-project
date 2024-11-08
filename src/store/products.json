@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Frozen Pizza",
+    "description": "Delicious cheese and pepperoni pizza, ready to bake.",
+    "price": 12.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 50,
+    "slug": "frozen-pizza",
+    "category": "Pizza",
+    "createdAt": "1729776799024"
+  },
+  {
+    "id": 2,
+    "name": "Frozen Chicken Nuggets",
+    "description": "Crispy and tender chicken nuggets, perfect for snacking.",
+    "price": 8.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 100,
+    "slug": "2sfdsf",
+    "category": " ",
+    "createdAt": "1603479600000"
+  },
+  {
+    "id": 3,
+    "name": "Frozen Mixed Vegetables",
+    "description": "A healthy blend of frozen carrots, peas, and corn.",
+    "price": 4.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 80,
+    "slug": "3sfdsf",
+    "category": "Mixed",
+    "createdAt": "1729776799024"
+  },
+  {
+    "id": 4,
+    "name": "Frozen French Fries",
+    "description": "Crispy golden French fries, perfect for any meal.",
+    "price": 5.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 150,
+    "slug": "4sfdsf",
+    "category": "French",
+    "createdAt": "1603479600000"
+  },
+  {
+    "id": 5,
+    "name": "Frozen Lasagna",
+    "description": "Layered pasta, meat, and cheese ready to heat and eat.",
+    "price": 14.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 40,
+    "slug": "5sfdsf",
+    "category": "Lasagna",
+    "createdAt": "1729776799024"
+  },
+  {
+    "id": 6,
+    "name": "Frozen Ice Cream",
+    "description": "Creamy vanilla ice cream, a perfect dessert for any occasion.",
+    "price": 6.49,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 60,
+    "slug": "6sfdsf",
+    "category": "Ice",
+    "createdAt": "1729776799024"
+  },
+  {
+    "id": 7,
+    "name": "Frozen Shrimp",
+    "description": "Fresh frozen shrimp, perfect for seafood lovers.",
+    "price": 18.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 30,
+    "slug": "7sfdsf",
+    "category": "Shrimp",
+    "createdAt": "1603479600000"
+  },
+  {
+    "id": 8,
+    "name": "Frozen Beef Patties",
+    "description": "Juicy beef patties for grilling or frying.",
+    "price": 10.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 70,
+    "slug": "8sfdsf",
+    "category": "Beef",
+    "createdAt": "1603479600000"
+  },
+  {
+    "id": 9,
+    "name": "Frozen Blueberries",
+    "description": "Sweet frozen blueberries for smoothies and desserts.",
+    "price": 7.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 90,
+    "slug": "9sfdsf",
+    "category": "Blueberries",
+    "createdAt": "1729776799024"
+  },
+  {
+    "id": 10,
+    "name": "Frozen Fish Fillets",
+    "description": "Fresh frozen fish fillets, ready to cook.",
+    "price": 16.99,
+    "image_url": "/placeholders/no-image.png",
+    "stock": 35,
+    "slug": "10sfdsf",
+    "category": "Fish",
+    "createdAt": "1603479600000"
+  }
+]

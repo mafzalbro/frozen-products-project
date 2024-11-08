@@ -1,0 +1,58 @@
+/your-nextjs-project
+│
+├── /src
+│   ├── /app
+│   │   ├── /api
+│   │   │   └── /payments
+│   │   │       └── route.ts  # Handle payment processing
+│   │   │
+│   │   ├── /components
+│   │   │   ├── /ui             # Reusable UI components (buttons, inputs, etc.)
+│   │   │   ├── /layout         # Layout components (header, footer)
+│   │   │   ├── /products       # Product card and details components
+│   │   │   └── /filters        # Filter components (checkboxes, dropdowns)
+│   │   │
+│   │   ├── /cms
+│   │   │   ├── /sanity         # Sanity CMS setup (or other CMS)
+│   │   │   └── /content        # Content files for products/categories
+│   │   │
+│   │   ├── /pages
+│   │   │   ├── /categories      # Category pages
+│   │   │   │   ├── [category]   # Dynamic category pages (e.g., /categories/frozen)
+│   │   │   │   │   └── page.tsx # Category page with products
+│   │   │   │   └── page.tsx     # Categories overview page
+│   │   │   │
+│   │   │   ├── /products        # Product detail pages
+│   │   │   │   ├── [slug]       # Dynamic product pages (e.g., /products/product-1)
+│   │   │   │   │   └── page.tsx # Product detail page
+│   │   │   │   └── page.tsx     # Products listing page
+│   │   │   │
+│   │   │   ├── /search          # Search results page
+│   │   │   │   └── page.tsx     # Search page with results
+│   │   │   │
+│   │   │   ├── /cart            # Cart page
+│   │   │   │   └── page.tsx     # Cart overview and checkout
+│   │   │   │
+│   │   │   ├── /checkout         # Checkout page
+│   │   │   │   └── page.tsx      # Payment and order confirmation
+│   │   │   │
+│   │   │   └── /404             # Custom 404 page
+│   │   │
+│   │   ├── /styles              # Global styles and Tailwind CSS setup
+│   │   │   └── globals.css
+│   │   │
+│   │   ├── /public              # Static assets (images, fonts, etc.)
+│   │   │   ├── /images
+│   │   │   └── /icons
+│   │   │
+│   │   ├── /utils               # Utility functions and types
+│   │   │   ├── types.ts         # TypeScript types
+│   │   │   ├── helpers.ts       # Helper functions
+│   │   │   └── hooks.ts         # Custom hooks (e.g., useProducts)
+│   │   │
+│   │   └── layout.tsx           # Main layout component
+│   │
+│   ├── /next.config.js          # Next.js configuration
+│   ├── /tailwind.config.js       # Tailwind CSS configuration
+│   ├── /package.json             # Project dependencies and scripts
+│   └── /tsconfig.json            # TypeScript configuration
