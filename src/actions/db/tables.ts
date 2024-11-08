@@ -129,8 +129,11 @@ export async function createContactsTable() {
     );
   `;
   try {
-    await query(sql);
-    console.log("Contacts table created successfully.");
+    const data = await query(sql);
+    const result = Object(data);
+    if (result?.affectedRows) {
+      console.log("Contacts table created successfully.");
+    }
   } catch (error) {
     console.error("Error creating contacts table:", error);
   }
